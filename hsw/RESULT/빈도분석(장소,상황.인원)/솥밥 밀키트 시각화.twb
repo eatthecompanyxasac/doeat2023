@@ -1,0 +1,2956 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0623.1502                               -->
+<workbook original-version='18.1' source-build='2023.1.3 (20231.23.0623.1502)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1(naver_blog_text_scaling_keyword_label)' inline='true' name='federated.150fg8m1a8rqzw18x8ep60p1z7wg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='naver_blog_text_scaling_keyword_label_finish' name='excel-direct.1nsvabr0dow4js12at5eh08u1f7m'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/vscode/naver_blog_text_scaling_keyword_label_finish2.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1nsvabr0dow4js12at5eh08u1f7m' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K138:no:A1:K138:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='주소' ordinal='1' />
+            <column datatype='string' name='내용' ordinal='2' />
+            <column datatype='string' name='변환된 내용' ordinal='3' />
+            <column datatype='string' name='명사 토큰화' ordinal='4' />
+            <column datatype='string' name='동사 토큰화' ordinal='5' />
+            <column datatype='string' name='형용사 토큰화' ordinal='6' />
+            <column datatype='string' name='주요 키워드' ordinal='7' />
+            <column datatype='integer' name='person_labeling' ordinal='8' />
+            <column datatype='integer' name='purpose_labeling' ordinal='9' />
+            <column datatype='integer' name='place_labeling' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1nsvabr0dow4js12at5eh08u1f7m' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K138:no:A1:K138:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='주소' ordinal='1' />
+            <column datatype='string' name='내용' ordinal='2' />
+            <column datatype='string' name='변환된 내용' ordinal='3' />
+            <column datatype='string' name='명사 토큰화' ordinal='4' />
+            <column datatype='string' name='동사 토큰화' ordinal='5' />
+            <column datatype='string' name='형용사 토큰화' ordinal='6' />
+            <column datatype='string' name='주요 키워드' ordinal='7' />
+            <column datatype='integer' name='person_labeling' ordinal='8' />
+            <column datatype='integer' name='purpose_labeling' ordinal='9' />
+            <column datatype='integer' name='place_labeling' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K138:no:A1:K138:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>주소</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[주소]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>주소</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>내용</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[내용]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>내용</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>변환된 내용</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[변환된 내용]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>변환된 내용</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>명사 토큰화</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[명사 토큰화]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>명사 토큰화</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>동사 토큰화</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[동사 토큰화]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>동사 토큰화</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>형용사 토큰화</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[형용사 토큰화]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>형용사 토큰화</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>주요 키워드</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[주요 키워드]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>주요 키워드</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>person_labeling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[person_labeling]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>person_labeling</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>purpose_labeling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[purpose_labeling]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>purpose_labeling</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>place_labeling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[place_labeling]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>place_labeling</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' caption='Person Labeling.' datatype='integer' name='[Person Labeling(복사본)_1300414445933191170]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[person_labeling]' />
+        <aliases>
+          <alias key='1' value='외부인' />
+          <alias key='2' value='부모' />
+          <alias key='3' value='아이' />
+          <alias key='4' value='부부' />
+          <alias key='5' value='그 외 가족' />
+          <alias key='6' value='혼자' />
+          <alias key='7' value='그 외' />
+        </aliases>
+      </column>
+      <column aggregation='Sum' caption='Purpose Labeling.' datatype='integer' name='[Purpose Labeling(복사본)_1300414445939482633]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[purpose_labeling]' />
+        <aliases>
+          <alias key='1' value='선물용' />
+          <alias key='2' value='대접용' />
+          <alias key='3' value='제대로 먹고 싶을 때' />
+          <alias key='4' value='편하게 먹고 싶을 때' />
+          <alias key='5' value='제대로&amp;편하게' />
+        </aliases>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F]' role='measure' type='quantitative' />
+      <column caption='Person Labeling' datatype='integer' name='[person_labeling]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='place_labeling.' datatype='integer' name='[place_labeling(복사본)_1300414445961916442]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[place_labeling]' />
+        <aliases>
+          <alias key='0' value='없음' />
+          <alias key='1' value='집' />
+          <alias key='2' value='여행' />
+          <alias key='3' value='캠핑' />
+        </aliases>
+      </column>
+      <column caption='Purpose Labeling' datatype='integer' name='[purpose_labeling]' role='measure' type='quantitative' />
+      <column-instance column='[Person Labeling(복사본)_1300414445933191170]' derivation='None' name='[none:Person Labeling(복사본)_1300414445933191170:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Purpose Labeling(복사본)_1300414445939482633]' derivation='None' name='[none:Purpose Labeling(복사본)_1300414445939482633:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[place_labeling(복사본)_1300414445961916442]' derivation='None' name='[none:place_labeling(복사본)_1300414445961916442:ok]' pivot='key' type='ordinal' />
+      <group caption='동작(Person Labeling.)' hidden='true' name='[Action (Person Labeling.)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Person Labeling(복사본)_1300414445933191170]' />
+        </groupfilter>
+      </group>
+      <group caption='동작(Purpose Labeling.)' hidden='true' name='[Action (Purpose Labeling.)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Purpose Labeling(복사본)_1300414445939482633]' />
+        </groupfilter>
+      </group>
+      <group caption='동작(place_labeling.)' hidden='true' name='[Action (place_labeling.)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[place_labeling(복사본)_1300414445961916442]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1082271339954032643:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1082271339954601989:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445941973003:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942140945:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951244805:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445958852629:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445958844435:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1082271339954024449:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1082271339954610183:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445941981197:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951674889:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951212035:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:place_labeling(복사본)_1300414445961916442:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Purpose Labeling(복사본)_1300414445939482633:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Person Labeling(복사본)_1300414445933191170:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='F1' />
+        <field-sort-custom-order field='주소' />
+        <field-sort-custom-order field='내용' />
+        <field-sort-custom-order field='변환된 내용' />
+        <field-sort-custom-order field='명사 토큰화' />
+        <field-sort-custom-order field='Calculation_1300414445959077911' />
+        <field-sort-custom-order field='동사 토큰화' />
+        <field-sort-custom-order field='형용사 토큰화' />
+        <field-sort-custom-order field='주요 키워드' />
+        <field-sort-custom-order field='person_labeling' />
+        <field-sort-custom-order field='purpose_labeling' />
+        <field-sort-custom-order field='place_labeling' />
+        <field-sort-custom-order field='place_labeling(복사본)_1300414445961916442' />
+        <field-sort-custom-order field='place_labeling(복사본)_1300414445959188505' />
+        <field-sort-custom-order field='place_labeling(복사본)_1300414445959057430' />
+        <field-sort-custom-order field='Person Labeling(복사본)_1300414445933191170' />
+        <field-sort-custom-order field='Calculation_1300414445959159832' />
+        <field-sort-custom-order field='Purpose Labeling(복사본)_1300414445939482633' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_53326E3BC6F04DAFADC3B37B9FC2931F'>
+            <properties context=''>
+              <relation connection='excel-direct.1nsvabr0dow4js12at5eh08u1f7m' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:K138:no:A1:K138:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='주소' ordinal='1' />
+                  <column datatype='string' name='내용' ordinal='2' />
+                  <column datatype='string' name='변환된 내용' ordinal='3' />
+                  <column datatype='string' name='명사 토큰화' ordinal='4' />
+                  <column datatype='string' name='동사 토큰화' ordinal='5' />
+                  <column datatype='string' name='형용사 토큰화' ordinal='6' />
+                  <column datatype='string' name='주요 키워드' ordinal='7' />
+                  <column datatype='integer' name='person_labeling' ordinal='8' />
+                  <column datatype='integer' name='purpose_labeling' ordinal='9' />
+                  <column datatype='integer' name='place_labeling' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='필터 1(생성됨)' name='[Action1_BC6EE3E8FEE44CDEA963DBC658BC7F27]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='상황별 인원' type='sheet' worksheet='시트 2' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='상황별 인원' />
+      </command>
+    </action>
+    <action caption='필터 2(생성됨)' name='[Action2_C14185D5D5464DAD9C449DD73687405D]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='상황별 인원' type='sheet' worksheet='시트 5' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='상황별 인원' />
+      </command>
+    </action>
+    <action caption='필터 4(생성됨)' name='[Action4_B1CB71F4862447C495E6F10777AA2288]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='대시보드 3' type='sheet' worksheet='시트 5' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='대시보드 3' />
+      </command>
+    </action>
+    <action caption='필터 3(생성됨)' name='[Action4_B30C34300FD34A23936DB9FB99478F54]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='장소' type='sheet' worksheet='시트 6' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='장소' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='시트 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(naver_blog_text_scaling_keyword_label)' name='federated.150fg8m1a8rqzw18x8ep60p1z7wg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.150fg8m1a8rqzw18x8ep60p1z7wg'>
+            <column aggregation='Sum' caption='Person Labeling.' datatype='integer' name='[Person Labeling(복사본)_1300414445933191170]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[person_labeling]' />
+              <aliases>
+                <alias key='1' value='외부인' />
+                <alias key='2' value='부모' />
+                <alias key='3' value='아이' />
+                <alias key='4' value='부부' />
+                <alias key='5' value='그 외 가족' />
+                <alias key='6' value='혼자' />
+                <alias key='7' value='그 외' />
+              </aliases>
+            </column>
+            <column aggregation='Sum' caption='Purpose Labeling.' datatype='integer' name='[Purpose Labeling(복사본)_1300414445939482633]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[purpose_labeling]' />
+              <aliases>
+                <alias key='1' value='선물용' />
+                <alias key='2' value='대접용' />
+                <alias key='3' value='제대로 먹고 싶을 때' />
+                <alias key='4' value='편하게 먹고 싶을 때' />
+                <alias key='5' value='제대로&amp;편하게' />
+              </aliases>
+            </column>
+            <column-instance column='[person_labeling]' derivation='Count' name='[cnt:person_labeling:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Person Labeling(복사본)_1300414445933191170]' derivation='None' name='[none:Person Labeling(복사본)_1300414445933191170:ok]' pivot='key' type='ordinal' />
+            <column caption='Person Labeling' datatype='integer' name='[person_labeling]' role='measure' type='quantitative' />
+            <column caption='Purpose Labeling' datatype='integer' name='[purpose_labeling]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (Purpose Labeling.)]'>
+            <groupfilter function='level-members' level='[Purpose Labeling(복사본)_1300414445939482633]' user:ui-action-filter='[Action1_42A6057456974073A8FA12496DFEDF60]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Person Labeling(복사본)_1300414445933191170:ok]' />
+              <groupfilter function='member' level='[none:Person Labeling(복사본)_1300414445933191170:ok]' member='7' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (Purpose Labeling.)]</column>
+            <column>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='나눔스퀘어라운드OTF Bold' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</rows>
+        <cols>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</cols>
+      </table>
+      <simple-id uuid='{F71ED0A4-88F3-41C6-81AA-F4895C2845C3}' />
+    </worksheet>
+    <worksheet name='시트 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(naver_blog_text_scaling_keyword_label)' name='federated.150fg8m1a8rqzw18x8ep60p1z7wg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.150fg8m1a8rqzw18x8ep60p1z7wg'>
+            <column caption='1' datatype='integer' name='[Calculation_1300414445936164872]' role='measure' type='quantitative' user:unnamed='시트 3'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column aggregation='Sum' caption='Person Labeling.' datatype='integer' name='[Person Labeling(복사본)_1300414445933191170]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[person_labeling]' />
+              <aliases>
+                <alias key='1' value='외부인' />
+                <alias key='2' value='부모' />
+                <alias key='3' value='아이' />
+                <alias key='4' value='부부' />
+                <alias key='5' value='그 외 가족' />
+                <alias key='6' value='혼자' />
+                <alias key='7' value='그 외' />
+              </aliases>
+            </column>
+            <column-instance column='[person_labeling]' derivation='Count' name='[cnt:person_labeling:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1300414445936164872]' derivation='None' name='[none:Calculation_1300414445936164872:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Person Labeling(복사본)_1300414445933191170]' derivation='None' name='[none:Person Labeling(복사본)_1300414445933191170:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[person_labeling]' derivation='Count' name='[pcto:cnt:person_labeling:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Person Labeling' datatype='integer' name='[person_labeling]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' direction='ASC'>
+            <dictionary>
+              <bucket>7</bucket>
+              <bucket>4</bucket>
+              <bucket>1</bucket>
+              <bucket>3</bucket>
+              <bucket>6</bucket>
+              <bucket>2</bucket>
+              <bucket>5</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]' field-type='quantitative' fold='true' major-origin='0' major-show='false' major-spacing='1' minor-origin='0' minor-show='false' minor-spacing='1' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='1' minor-origin='0' minor-show='false' minor-spacing='1' scope='cols' type='space' />
+            <format attr='display' class='1' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]' scope='cols' value='false' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='나눔스퀘어라운드OTF Bold' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='4.5644211769104004' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' />
+              <wedge-size column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='5.7254762649536133' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='false' />
+            <customized-label>
+              <formatted-text>
+                <run>총 인원 데이터&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</run>
+                <run>&gt;개</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='22' />
+                <format attr='font-weight' value='bold' />
+                <format attr='text-decoration' value='none' />
+                <format attr='font-style' value='normal' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='3.5248618125915527' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk] + [federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk])</cols>
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6</value>
+                <value>1</value>
+                <value>5</value>
+                <value>0.043795620437956206</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-6' y='52' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>18</value>
+                <value>1</value>
+                <value>1</value>
+                <value>0.13138686131386862</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='69' y='15' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Calculation_1300414445936164872:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>21</value>
+                <value>1</value>
+                <value>4</value>
+                <value>0.15328467153284672</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='40' y='62' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{43F63F5D-8721-4C93-87F8-23079865F1A5}' />
+    </worksheet>
+    <worksheet name='시트 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(naver_blog_text_scaling_keyword_label)' name='federated.150fg8m1a8rqzw18x8ep60p1z7wg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.150fg8m1a8rqzw18x8ep60p1z7wg'>
+            <column aggregation='Sum' caption='Purpose Labeling.' datatype='integer' name='[Purpose Labeling(복사본)_1300414445939482633]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[purpose_labeling]' />
+              <aliases>
+                <alias key='1' value='선물용' />
+                <alias key='2' value='대접용' />
+                <alias key='3' value='제대로 먹고 싶을 때' />
+                <alias key='4' value='편하게 먹고 싶을 때' />
+                <alias key='5' value='제대로&amp;편하게' />
+              </aliases>
+            </column>
+            <column-instance column='[purpose_labeling]' derivation='Count' name='[cnt:purpose_labeling:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Purpose Labeling(복사본)_1300414445939482633]' derivation='None' name='[none:Purpose Labeling(복사본)_1300414445939482633:ok]' pivot='key' type='ordinal' />
+            <column caption='Purpose Labeling' datatype='integer' name='[purpose_labeling]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Purpose Labeling(복사본)_1300414445939482633:ok]' />
+              <groupfilter function='member' level='[none:Purpose Labeling(복사본)_1300414445939482633:ok]' member='0' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]</rows>
+        <cols>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]</cols>
+      </table>
+      <simple-id uuid='{2264BB34-926F-4481-B9E1-2DA93C74538D}' />
+    </worksheet>
+    <worksheet name='시트 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(naver_blog_text_scaling_keyword_label)' name='federated.150fg8m1a8rqzw18x8ep60p1z7wg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.150fg8m1a8rqzw18x8ep60p1z7wg'>
+            <column caption='1' datatype='integer' name='[Calculation_1300414445941973003]' role='measure' type='quantitative' user:unnamed='시트 5'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='1' datatype='integer' name='[Calculation_1300414445941981197]' role='measure' type='quantitative' user:unnamed='시트 5'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='0' datatype='integer' name='[Calculation_1300414445942132751]' role='measure' type='quantitative' user:unnamed='시트 5'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column caption='0' datatype='integer' name='[Calculation_1300414445942140945]' role='measure' type='quantitative' user:unnamed='시트 5'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column aggregation='Sum' caption='Person Labeling.' datatype='integer' name='[Person Labeling(복사본)_1300414445933191170]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[person_labeling]' />
+              <aliases>
+                <alias key='1' value='외부인' />
+                <alias key='2' value='부모' />
+                <alias key='3' value='아이' />
+                <alias key='4' value='부부' />
+                <alias key='5' value='그 외 가족' />
+                <alias key='6' value='혼자' />
+                <alias key='7' value='그 외' />
+              </aliases>
+            </column>
+            <column aggregation='Sum' caption='Purpose Labeling.' datatype='integer' name='[Purpose Labeling(복사본)_1300414445939482633]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[purpose_labeling]' />
+              <aliases>
+                <alias key='1' value='선물용' />
+                <alias key='2' value='대접용' />
+                <alias key='3' value='제대로 먹고 싶을 때' />
+                <alias key='4' value='편하게 먹고 싶을 때' />
+                <alias key='5' value='제대로&amp;편하게' />
+              </aliases>
+            </column>
+            <column-instance column='[purpose_labeling]' derivation='Count' name='[cnt:purpose_labeling:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Purpose Labeling(복사본)_1300414445939482633]' derivation='None' name='[none:Purpose Labeling(복사본)_1300414445939482633:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[purpose_labeling]' derivation='Count' name='[pcto:cnt:purpose_labeling:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Person Labeling' datatype='integer' name='[person_labeling]' role='measure' type='quantitative' />
+            <column caption='Purpose Labeling' datatype='integer' name='[purpose_labeling]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1300414445941973003]' derivation='Sum' name='[sum:Calculation_1300414445941973003:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1300414445941981197]' derivation='Sum' name='[sum:Calculation_1300414445941981197:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1300414445942132751]' derivation='Sum' name='[sum:Calculation_1300414445942132751:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1300414445942140945]' derivation='Sum' name='[sum:Calculation_1300414445942140945:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445941973003:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445941981197:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (Person Labeling.)]'>
+            <groupfilter function='level-members' level='[Person Labeling(복사본)_1300414445933191170]' user:ui-action-filter='[Action2_ED617E1A17904A64ACF50B67C2D051B4]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Purpose Labeling(복사본)_1300414445939482633:ok]' />
+              <groupfilter function='member' level='[none:Purpose Labeling(복사본)_1300414445939482633:ok]' member='0' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]' direction='DESC' using='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]' />
+          <slices>
+            <column>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[:Measure Names]</column>
+            <column>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]</column>
+            <column>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (Person Labeling.)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942140945:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942140945:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='나눔스퀘어라운드OTF Bold' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]' />
+              <wedge-size column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:purpose_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]</run>
+                <run>&gt;&#10;</run>
+                <run><![CDATA[<[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:purpose_labeling:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run><![CDATA[<[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='5.5472970008850098' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942140945:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>총 137개 중&#10;상황별 데이터&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]</run>
+                <run>&gt;개</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='15' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='3.7458562850952148' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk] + [federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942140945:qk])</rows>
+        <cols />
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:purpose_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>8</value>
+                <value>5</value>
+                <value>0</value>
+                <value>0.072727272727272724</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-17' y='41' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:purpose_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>7</value>
+                <value>1</value>
+                <value>0</value>
+                <value>0.06363636363636363</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='14' y='36' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:purpose_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6</value>
+                <value>3</value>
+                <value>0</value>
+                <value>0.054545454545454543</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-116' y='17' />
+          </mark-label>
+          <mark-label id='3'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445942132751:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:purpose_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>10</value>
+                <value>4</value>
+                <value>0</value>
+                <value>0.090909090909090912</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-68' y='41' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{3709CD6C-7279-4888-A842-F055AEF3B7BE}' />
+    </worksheet>
+    <worksheet name='시트 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(naver_blog_text_scaling_keyword_label)' name='federated.150fg8m1a8rqzw18x8ep60p1z7wg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.150fg8m1a8rqzw18x8ep60p1z7wg'>
+            <column caption='0' datatype='integer' name='[Calculation_1300414445958844435]' role='measure' type='quantitative' user:unnamed='시트 6'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column caption='0' datatype='integer' name='[Calculation_1300414445958852629]' role='measure' type='quantitative' user:unnamed='시트 6'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column-instance column='[place_labeling]' derivation='Count' name='[cnt:place_labeling:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[place_labeling(복사본)_1300414445961916442]' derivation='None' name='[none:place_labeling(복사본)_1300414445961916442:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[place_labeling]' derivation='Count' name='[pcto:cnt:place_labeling:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column aggregation='Sum' caption='place_labeling.' datatype='integer' name='[place_labeling(복사본)_1300414445961916442]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[place_labeling]' />
+              <aliases>
+                <alias key='0' value='없음' />
+                <alias key='1' value='집' />
+                <alias key='2' value='여행' />
+                <alias key='3' value='캠핑' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[place_labeling]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1300414445958844435]' derivation='Sum' name='[sum:Calculation_1300414445958844435:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1300414445958852629]' derivation='Sum' name='[sum:Calculation_1300414445958852629:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:place_labeling(복사본)_1300414445961916442:ok]' />
+              <groupfilter function='member' level='[none:place_labeling(복사본)_1300414445961916442:ok]' member='0' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]' direction='DESC' using='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445958844435:qk]' />
+          <slices>
+            <column>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445958852629:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445958844435:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445958852629:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='나눔스퀘어라운드OTF Bold' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445958844435:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]' />
+              <wedge-size column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:place_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:place_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:place_labeling:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:place_labeling:qk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:place_labeling:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='5.7254762649536133' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445958852629:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[:Measure Names]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>총 137개 중&#10;장소 키워드 데이터&#10;76개</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='16' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='3.4364640712738037' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445958844435:qk] + [federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1300414445958852629:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{0527ACF2-596C-4638-B4D2-65477F50A628}' />
+    </worksheet>
+    <worksheet name='시트 7'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(naver_blog_text_scaling_keyword_label)' name='federated.150fg8m1a8rqzw18x8ep60p1z7wg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.150fg8m1a8rqzw18x8ep60p1z7wg'>
+            <column-instance column='[place_labeling]' derivation='Count' name='[cnt:place_labeling:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[place_labeling(복사본)_1300414445961916442]' derivation='None' name='[none:place_labeling(복사본)_1300414445961916442:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' caption='place_labeling.' datatype='integer' name='[place_labeling(복사본)_1300414445961916442]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[place_labeling]' />
+              <aliases>
+                <alias key='0' value='없음' />
+                <alias key='1' value='집' />
+                <alias key='2' value='여행' />
+                <alias key='3' value='캠핑' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[place_labeling]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:place_labeling:qk]</rows>
+        <cols>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]</cols>
+      </table>
+      <simple-id uuid='{EB75824D-111B-474D-BAF4-819DC1B1CB16}' />
+    </worksheet>
+    <worksheet name='시트 8'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(naver_blog_text_scaling_keyword_label)' name='federated.150fg8m1a8rqzw18x8ep60p1z7wg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.150fg8m1a8rqzw18x8ep60p1z7wg'>
+            <column caption='0' datatype='integer' name='[Calculation_1630866068951662599]' role='measure' type='quantitative' user:unnamed='시트 8'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column caption='0' datatype='integer' name='[Calculation_1630866068951674889]' role='measure' type='quantitative' user:unnamed='시트 8'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column aggregation='Sum' caption='Person Labeling.' datatype='integer' name='[Person Labeling(복사본)_1300414445933191170]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[person_labeling]' />
+              <aliases>
+                <alias key='1' value='외부인' />
+                <alias key='2' value='부모' />
+                <alias key='3' value='아이' />
+                <alias key='4' value='부부' />
+                <alias key='5' value='그 외 가족' />
+                <alias key='6' value='혼자' />
+                <alias key='7' value='그 외' />
+              </aliases>
+            </column>
+            <column aggregation='Sum' caption='Purpose Labeling.' datatype='integer' name='[Purpose Labeling(복사본)_1300414445939482633]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[purpose_labeling]' />
+              <aliases>
+                <alias key='1' value='선물용' />
+                <alias key='2' value='대접용' />
+                <alias key='3' value='제대로 먹고 싶을 때' />
+                <alias key='4' value='편하게 먹고 싶을 때' />
+                <alias key='5' value='제대로&amp;편하게' />
+              </aliases>
+            </column>
+            <column-instance column='[person_labeling]' derivation='Count' name='[cnt:person_labeling:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Person Labeling(복사본)_1300414445933191170]' derivation='None' name='[none:Person Labeling(복사본)_1300414445933191170:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Purpose Labeling(복사본)_1300414445939482633]' derivation='None' name='[none:Purpose Labeling(복사본)_1300414445939482633:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[person_labeling]' derivation='Count' name='[pcto:cnt:person_labeling:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Person Labeling' datatype='integer' name='[person_labeling]' role='measure' type='quantitative' />
+            <column caption='Purpose Labeling' datatype='integer' name='[purpose_labeling]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1630866068951662599]' derivation='Sum' name='[sum:Calculation_1630866068951662599:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1630866068951674889]' derivation='Sum' name='[sum:Calculation_1630866068951674889:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (Purpose Labeling.)]'>
+            <groupfilter function='level-members' level='[Purpose Labeling(복사본)_1300414445939482633]' user:ui-action-filter='[Action4_B1CB71F4862447C495E6F10777AA2288]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (Purpose Labeling.)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951674889:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='width' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]' value='52' />
+            <format attr='width' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951674889:qk]' value='52' />
+            <format attr='display' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951674889:qk]' scope='rows' value='false' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='나눔스퀘어라운드OTF Bold' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='3.6574585437774658' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' />
+              <wedge-size column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='5.7254762649536133' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951674889:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]</run>
+                <run>&gt;&#10;인원별 데이터&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</run>
+                <run>&gt;&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='15' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='3.7900552749633789' />
+                <format attr='mark-color' value='#ffffff' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk] + [federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951674889:qk])</rows>
+        <cols />
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>18</value>
+                <value>1</value>
+                <value>0</value>
+                <value>0.13138686131386862</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='17' y='41' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>6</value>
+                <value>5</value>
+                <value>0</value>
+                <value>0.043795620437956206</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-1' y='-55' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>15</value>
+                <value>3</value>
+                <value>0</value>
+                <value>0.10948905109489052</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='52' y='-6' />
+          </mark-label>
+          <mark-label id='3'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>13</value>
+                <value>2</value>
+                <value>0</value>
+                <value>0.094890510948905105</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='45' y='25' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{BBD57C82-8675-450F-8E6A-261BA9EEC747}' />
+    </worksheet>
+    <worksheet name='시트 8 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(naver_blog_text_scaling_keyword_label)' name='federated.150fg8m1a8rqzw18x8ep60p1z7wg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.150fg8m1a8rqzw18x8ep60p1z7wg'>
+            <column caption='0' datatype='integer' name='[Calculation_1630866068951662599]' role='measure' type='quantitative' user:unnamed='시트 8'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column caption='0' datatype='integer' name='[Calculation_1630866068951674889]' role='measure' type='quantitative' user:unnamed='시트 8'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column aggregation='Sum' caption='Person Labeling.' datatype='integer' name='[Person Labeling(복사본)_1300414445933191170]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[person_labeling]' />
+              <aliases>
+                <alias key='1' value='외부인' />
+                <alias key='2' value='부모' />
+                <alias key='3' value='아이' />
+                <alias key='4' value='부부' />
+                <alias key='5' value='그 외 가족' />
+                <alias key='6' value='혼자' />
+                <alias key='7' value='그 외' />
+              </aliases>
+            </column>
+            <column-instance column='[person_labeling]' derivation='Count' name='[cnt:person_labeling:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Person Labeling(복사본)_1300414445933191170]' derivation='None' name='[none:Person Labeling(복사본)_1300414445933191170:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[place_labeling(복사본)_1300414445961916442]' derivation='None' name='[none:place_labeling(복사본)_1300414445961916442:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[person_labeling]' derivation='Count' name='[pcto:cnt:person_labeling:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Person Labeling' datatype='integer' name='[person_labeling]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='place_labeling.' datatype='integer' name='[place_labeling(복사본)_1300414445961916442]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[place_labeling]' />
+              <aliases>
+                <alias key='0' value='없음' />
+                <alias key='1' value='집' />
+                <alias key='2' value='여행' />
+                <alias key='3' value='캠핑' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[place_labeling]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1630866068951662599]' derivation='Sum' name='[sum:Calculation_1630866068951662599:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1630866068951674889]' derivation='Sum' name='[sum:Calculation_1630866068951674889:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (place_labeling.)]'>
+            <groupfilter function='member' level='[place_labeling(복사본)_1300414445961916442]' member='3' user:ui-action-filter='[Action4_B30C34300FD34A23936DB9FB99478F54]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (place_labeling.)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951674889:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='width' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]' value='52' />
+            <format attr='width' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951674889:qk]' value='52' />
+            <format attr='display' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951674889:qk]' scope='rows' value='false' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='나눔스퀘어라운드OTF Bold' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='3.6574585437774658' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' />
+              <wedge-size column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='5.7254762649536133' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951674889:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]</run>
+                <run>&gt;&#10;인원별 데이터&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</run>
+                <run>&gt;&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='15' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='3.7900552749633789' />
+                <format attr='mark-color' value='#ffffff' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk] + [federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951674889:qk])</rows>
+        <cols />
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>18</value>
+                <value>1</value>
+                <value>0</value>
+                <value>0.13138686131386862</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='17' y='41' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields>
+                    <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1630866068951662599:qk]</field>
+                  <field>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>15</value>
+                <value>3</value>
+                <value>0</value>
+                <value>0.10948905109489052</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='52' y='-6' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{6F6FD5EA-D431-4E66-8606-61B5828DFA18}' />
+    </worksheet>
+    <worksheet name='시트 9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(naver_blog_text_scaling_keyword_label)' name='federated.150fg8m1a8rqzw18x8ep60p1z7wg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.150fg8m1a8rqzw18x8ep60p1z7wg'>
+            <column caption='0' datatype='integer' name='[Calculation_1082271339954601989]' role='measure' type='quantitative' user:unnamed='시트 9'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column caption='0' datatype='integer' name='[Calculation_1082271339954610183]' role='measure' type='quantitative' user:unnamed='시트 9'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column aggregation='Sum' caption='Person Labeling.' datatype='integer' name='[Person Labeling(복사본)_1300414445933191170]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[person_labeling]' />
+              <aliases>
+                <alias key='1' value='외부인' />
+                <alias key='2' value='부모' />
+                <alias key='3' value='아이' />
+                <alias key='4' value='부부' />
+                <alias key='5' value='그 외 가족' />
+                <alias key='6' value='혼자' />
+                <alias key='7' value='그 외' />
+              </aliases>
+            </column>
+            <column-instance column='[person_labeling]' derivation='Count' name='[cnt:person_labeling:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Person Labeling(복사본)_1300414445933191170]' derivation='None' name='[none:Person Labeling(복사본)_1300414445933191170:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[person_labeling]' derivation='Count' name='[pcto:cnt:person_labeling:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Person Labeling' datatype='integer' name='[person_labeling]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1082271339954601989]' derivation='Sum' name='[sum:Calculation_1082271339954601989:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1082271339954610183]' derivation='Sum' name='[sum:Calculation_1082271339954610183:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1082271339954610183:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1082271339954601989:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' />
+              <wedge-size column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' />
+              <text column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[pcto:cnt:person_labeling:qk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:person_labeling:qk]</run>
+                <run>&gt;&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='4.0442090034484863' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1082271339954610183:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.1546962261199951' />
+                <format attr='mark-color' value='#ffffff' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1082271339954601989:qk] + [federated.150fg8m1a8rqzw18x8ep60p1z7wg].[sum:Calculation_1082271339954610183:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{E43584D1-66AC-4C0F-98FA-80250E8CE685}' />
+    </worksheet>
+    <worksheet name='실제 내용'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(naver_blog_text_scaling_keyword_label)' name='federated.150fg8m1a8rqzw18x8ep60p1z7wg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.150fg8m1a8rqzw18x8ep60p1z7wg'>
+            <column aggregation='Sum' caption='Person Labeling.' datatype='integer' name='[Person Labeling(복사본)_1300414445933191170]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[person_labeling]' />
+              <aliases>
+                <alias key='1' value='외부인' />
+                <alias key='2' value='부모' />
+                <alias key='3' value='아이' />
+                <alias key='4' value='부부' />
+                <alias key='5' value='그 외 가족' />
+                <alias key='6' value='혼자' />
+                <alias key='7' value='그 외' />
+              </aliases>
+            </column>
+            <column aggregation='Sum' caption='Purpose Labeling.' datatype='integer' name='[Purpose Labeling(복사본)_1300414445939482633]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[purpose_labeling]' />
+              <aliases>
+                <alias key='1' value='선물용' />
+                <alias key='2' value='대접용' />
+                <alias key='3' value='제대로 먹고 싶을 때' />
+                <alias key='4' value='편하게 먹고 싶을 때' />
+                <alias key='5' value='제대로&amp;편하게' />
+              </aliases>
+            </column>
+            <column-instance column='[변환된 내용]' derivation='None' name='[none:변환된 내용:nk]' pivot='key' type='nominal' />
+            <column caption='Person Labeling' datatype='integer' name='[person_labeling]' role='measure' type='quantitative' />
+            <column caption='Purpose Labeling' datatype='integer' name='[purpose_labeling]' role='measure' type='quantitative' />
+            <column datatype='string' name='[변환된 내용]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (Person Labeling.)]'>
+            <groupfilter function='level-members' level='[Person Labeling(복사본)_1300414445933191170]' user:ui-action-filter='[Action2_ED617E1A17904A64ACF50B67C2D051B4]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (Purpose Labeling.)]'>
+            <groupfilter function='level-members' level='[Purpose Labeling(복사본)_1300414445939482633]' user:ui-action-filter='[Action1_42A6057456974073A8FA12496DFEDF60]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (Purpose Labeling.)]</column>
+            <column>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[Action (Person Labeling.)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:변환된 내용:nk]' value='1256' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:변환된 내용:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{9D847A01-4291-4C92-B897-3E894283403E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='대시보드 3'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98120' id='7' param='horz' type-v2='layout-flow' w='99034' x='483' y='940'>
+            <zone h='98120' id='5' type-v2='layout-basic' w='89378' x='483' y='940'>
+              <zone h='98120' id='3' name='시트 8' show-title='false' w='44689' x='45172' y='940'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98120' id='13' name='시트 5' w='44689' x='483' y='940'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98120' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9656' x='89861' y='940'>
+              <zone h='24089' id='8' name='시트 8' pane-specification-id='4' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' type-v2='color' w='9656' x='89861' y='940'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='20799' id='14' name='시트 5' pane-specification-id='5' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]' type-v2='color' w='9656' x='89861' y='25029'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='15' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98120' id='13' is-fixed='true' name='시트 5' w='44689' x='483' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='20799' id='14' name='시트 5' pane-specification-id='5' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]' type-v2='color' w='9656' x='89861' y='25029'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98120' id='3' is-fixed='true' name='시트 8' show-title='false' w='44689' x='45172' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='24089' id='8' name='시트 8' pane-specification-id='4' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' type-v2='color' w='9656' x='89861' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{24FBDA24-28AE-4A1B-BFBA-176040552BB1}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='상황별 인원'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97612' id='3' param='horz' type-v2='layout-flow' w='90735' x='568' y='1194'>
+            <zone fixed-size='880' h='97612' id='6' is-fixed='true' name='시트 5' show-title='false' w='63068' x='568' y='1194'>
+              <layout-cache minheight='144' type-h='scalable' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='97612' id='8' name='시트 2' show-title='false' w='27667' x='63636' y='1194'>
+              <layout-cache cell-count-w='6' non-cell-size-w='79' type-h='fixed' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='97612' id='11' param='vert' type-v2='layout-flow' w='8129' x='91303' y='1194'>
+            <zone h='30597' id='9' name='시트 2' pane-specification-id='0' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' type-v2='color' w='8129' x='91303' y='1194'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='26418' id='7' name='시트 5' pane-specification-id='5' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]' type-v2='color' w='8129' x='91303' y='31791'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97612' id='18' param='vert' type-v2='layout-flow' w='98864' x='568' y='1194'>
+                <zone fixed-size='280' h='97612' id='6' is-fixed='true' name='시트 5' show-title='false' w='63068' x='568' y='1194'>
+                  <layout-cache minheight='144' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='26418' id='7' name='시트 5' pane-specification-id='5' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]' type-v2='color' w='8129' x='91303' y='31791'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='97612' id='8' is-fixed='true' name='시트 2' show-title='false' w='27667' x='63636' y='1194'>
+                  <layout-cache cell-count-w='6' non-cell-size-w='79' type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='30597' id='9' name='시트 2' pane-specification-id='0' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' type-v2='color' w='8129' x='91303' y='1194'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{49965FEC-AF9A-4042-A9F2-61EDBA933CE4}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='장소'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98120' id='7' param='horz' type-v2='layout-flow' w='99152' x='424' y='940'>
+            <zone h='98120' id='5' type-v2='layout-basic' w='90677' x='424' y='940'>
+              <zone h='98120' id='3' name='시트 6' show-title='false' w='45338' x='424' y='940'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98120' id='18' name='시트 8 (2)' show-title='false' w='45339' x='45762' y='940'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98120' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='8475' x='91101' y='940'>
+              <zone h='10928' id='8' name='시트 6' pane-specification-id='1' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]' type-v2='color' w='8475' x='91101' y='940'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='17509' id='19' name='시트 8 (2)' pane-specification-id='4' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' type-v2='color' w='8475' x='91101' y='11868'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='20' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98120' id='3' is-fixed='true' name='시트 6' show-title='false' w='45338' x='424' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10928' id='8' name='시트 6' pane-specification-id='1' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]' type-v2='color' w='8475' x='91101' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98120' id='18' is-fixed='true' name='시트 8 (2)' show-title='false' w='45339' x='45762' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='17509' id='19' name='시트 8 (2)' pane-specification-id='4' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' type-v2='color' w='8475' x='91101' y='11868'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{BD0502C2-E014-4CF3-9FF9-3115654FDAC7}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' show-side-pane='false' source-height='37'>
+    <window class='worksheet' name='시트 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{7204DA0B-A8E2-4DF8-921E-860DC88E3015}' />
+    </window>
+    <window class='worksheet' name='시트 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='6' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-height' />
+      </viewpoint>
+      <simple-id uuid='{11ADA054-A584-4EBA-AC71-D2AE879CBA3D}' />
+    </window>
+    <window class='worksheet' name='시트 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[cnt:purpose_labeling:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{79F8BA2B-FF43-4B71-AF18-CA42874A2D94}' />
+    </window>
+    <window class='worksheet' name='시트 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='5' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Purpose Labeling(복사본)_1300414445939482633:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{EB1EFE39-A0CD-4C0B-BA4E-8A79BC9AEEB9}' />
+    </window>
+    <window class='worksheet' name='시트 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{486EA772-2B93-4FE9-8BAF-F00B4AE6E78F}' />
+    </window>
+    <window class='worksheet' name='시트 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:place_labeling(복사본)_1300414445961916442:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{1F256719-FED6-48C7-88F6-3F49BFC6A630}' />
+    </window>
+    <window class='worksheet' name='시트 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{23466F97-9BB4-427F-BF0A-2E16F5F3F825}' />
+    </window>
+    <window class='worksheet' name='시트 8 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{CD5ACB0B-362B-48C7-85AE-15192F675C47}' />
+    </window>
+    <window class='worksheet' name='실제 내용'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{BF03757A-09EB-46C0-BB49-2CD4F9FB06EF}' />
+    </window>
+    <window class='worksheet' name='시트 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.150fg8m1a8rqzw18x8ep60p1z7wg].[none:Person Labeling(복사본)_1300414445933191170:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{CE0BDE79-1132-47DA-99A9-FBA4C246E62A}' />
+    </window>
+    <window class='dashboard' name='장소'>
+      <viewpoints>
+        <viewpoint name='시트 6'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='시트 8 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{F61C012B-2BE2-4EDD-AC46-692F2E642BAD}' />
+    </window>
+    <window class='dashboard' maximized='true' name='상황별 인원'>
+      <viewpoints>
+        <viewpoint name='시트 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='시트 5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{CF6A09DE-C938-43C9-A399-20EE92C19879}' />
+    </window>
+    <window class='dashboard' name='대시보드 3'>
+      <viewpoints>
+        <viewpoint name='시트 5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='시트 8'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{AD2247D6-6CF0-4BEE-9C4E-22E6700334C6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='상황별 인원' width='192'>
+      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
+      RK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
