@@ -1,5 +1,0 @@
-코드를 사용해서 만들어낸 데이터 파일
-1. naver_blog_text_scaling.csv: 네이버에 "솥밥 밀키트"를 입력하여 나온 블로그들을 크롤링하여 주소, 본래 내용, 간단한 스케일링한 변환된 내용 포함
-2. 블로그확인하여 필요한 블로그의 키워드 추출.csv: 블로그 특성상 불필요한 내용이 많아 블로그를 확인하여 주요키워드 추출한 파일 
-3. naver_blog_text_scaling_keyword.csv: naver_blog_text_scaling.csv에 명사 토큰화, 동사 토큰화, 형용사 토큰화, 주요 키워드가 포함
-4. naver_blog_text_scaling_keyword_label_finish2.xlsx: 인원, 상황, 장소에 대한 라벨링을 진행하여 추가한 파일
