@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0623.1502                               -->
+<workbook original-version='18.1' source-build='2023.1.3 (20231.23.0623.1502)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='토큰즈_레시피' inline='true' name='federated.0j6s9bu174qzty16hgd810yijujf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='토큰즈_레시피' name='textscan.0fpvtkq1eti95e15ctalv1quviy4'>
+            <connection class='textscan' directory='C:/Users/NT550/Downloads' filename='토큰즈_레시피.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0fpvtkq1eti95e15ctalv1quviy4' name='토큰즈_레시피.csv' table='[토큰즈_레시피#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='string' name='단어 그룹' ordinal='0' />
+            <column datatype='integer' name='빈도수' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0fpvtkq1eti95e15ctalv1quviy4' name='토큰즈_레시피.csv' table='[토큰즈_레시피#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='string' name='단어 그룹' ordinal='0' />
+            <column datatype='integer' name='빈도수' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[토큰즈_레시피.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>단어 그룹</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[단어 그룹]</local-name>
+            <parent-name>[토큰즈_레시피.csv]</parent-name>
+            <remote-alias>단어 그룹</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[토큰즈_레시피.csv_197C85D6C4964446B153EB8E2F0BFB21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>빈도수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[빈도수]</local-name>
+            <parent-name>[토큰즈_레시피.csv]</parent-name>
+            <remote-alias>빈도수</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[토큰즈_레시피.csv_197C85D6C4964446B153EB8E2F0BFB21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='토큰즈_레시피.csv' datatype='table' name='[__tableau_internal_object_id__].[토큰즈_레시피.csv_197C85D6C4964446B153EB8E2F0BFB21]' role='measure' type='quantitative' />
+      <column datatype='string' name='[단어 그룹]' role='dimension' type='nominal' />
+      <column-instance column='[단어 그룹]' derivation='None' name='[none:단어 그룹:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691047937:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691056131:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:단어 그룹:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;견과류&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;치즈&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;요거트&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;과일&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;음료&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;빵/떡&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;샐러드&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='토큰즈_레시피.csv' id='토큰즈_레시피.csv_197C85D6C4964446B153EB8E2F0BFB21'>
+            <properties context=''>
+              <relation connection='textscan.0fpvtkq1eti95e15ctalv1quviy4' name='토큰즈_레시피.csv' table='[토큰즈_레시피#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='string' name='단어 그룹' ordinal='0' />
+                  <column datatype='integer' name='빈도수' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='토큰즈_레시피' name='federated.0j6s9bu174qzty16hgd810yijujf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j6s9bu174qzty16hgd810yijujf'>
+            <column caption='0' datatype='integer' name='[Calculation_1408219373691047937]' role='measure' type='quantitative' user:unnamed='시트 1'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column caption='0' datatype='integer' name='[Calculation_1408219373691056131]' role='measure' type='quantitative' user:unnamed='시트 1'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column-instance column='[단어 그룹]' derivation='None' name='[none:단어 그룹:nk]' pivot='key' type='nominal' />
+            <column-instance column='[빈도수]' derivation='Sum' name='[pcto:sum:빈도수:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_1408219373691047937]' derivation='Sum' name='[sum:Calculation_1408219373691047937:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1408219373691056131]' derivation='Sum' name='[sum:Calculation_1408219373691056131:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[빈도수]' derivation='Sum' name='[sum:빈도수:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[단어 그룹]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[빈도수]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0j6s9bu174qzty16hgd810yijujf].[none:단어 그룹:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;치즈&quot;</bucket>
+              <bucket>&quot;샐러드&quot;</bucket>
+              <bucket>&quot;견과류&quot;</bucket>
+              <bucket>&quot;과일&quot;</bucket>
+              <bucket>&quot;빵/떡&quot;</bucket>
+              <bucket>&quot;요거트&quot;</bucket>
+              <bucket>&quot;음료&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691056131:qk]' field-type='quantitative' fold='true' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691056131:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691047937:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691047937:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0j6s9bu174qzty16hgd810yijujf].[none:단어 그룹:nk]' />
+              <wedge-size column='[federated.0j6s9bu174qzty16hgd810yijujf].[sum:빈도수:qk]' />
+              <text column='[federated.0j6s9bu174qzty16hgd810yijujf].[none:단어 그룹:nk]' />
+              <text column='[federated.0j6s9bu174qzty16hgd810yijujf].[pcto:sum:빈도수:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='4.5644211769104004' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691056131:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0j6s9bu174qzty16hgd810yijujf].[sum:빈도수:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>네이버 블로그&#10;레시피 언급 키워드&#10;총 &lt;</run>
+                <run>[federated.0j6s9bu174qzty16hgd810yijujf].[sum:빈도수:qk]</run>
+                <run>&gt;건</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='20' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='3.7458562850952148' />
+                <format attr='mark-color' value='#ffffff' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691047937:qk] + [federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691056131:qk])</cols>
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691047937:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0j6s9bu174qzty16hgd810yijujf].[none:단어 그룹:nk]</field>
+                  <field>[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691047937:qk]</field>
+                  <field>[federated.0j6s9bu174qzty16hgd810yijujf].[sum:빈도수:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;치즈&quot;</value>
+                <value>0</value>
+                <value>221</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-13' y='23' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691047937:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0j6s9bu174qzty16hgd810yijujf].[none:단어 그룹:nk]</field>
+                  <field>[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691047937:qk]</field>
+                  <field>[federated.0j6s9bu174qzty16hgd810yijujf].[sum:빈도수:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;샐러드&quot;</value>
+                <value>0</value>
+                <value>445</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='5' y='21' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691047937:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0j6s9bu174qzty16hgd810yijujf].[none:단어 그룹:nk]</field>
+                  <field>[federated.0j6s9bu174qzty16hgd810yijujf].[sum:Calculation_1408219373691047937:qk]</field>
+                  <field>[federated.0j6s9bu174qzty16hgd810yijujf].[sum:빈도수:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;견과류&quot;</value>
+                <value>0</value>
+                <value>445</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='15' y='24' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{8F885E12-DEB2-4D67-A75F-B500C71502E2}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' show-side-pane='false' source-height='37'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0j6s9bu174qzty16hgd810yijujf].[none:단어 그룹:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0j6s9bu174qzty16hgd810yijujf].[none:단어 그룹:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{907D9E2D-B079-4399-A7FA-EBE3762BB29C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='시트 1' width='192'>
+      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
+      AEnt/wHlV0fGnGWqxgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
